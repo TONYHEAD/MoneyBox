@@ -18,8 +18,8 @@ Suffusion Version: 3.9.6   http://wordpress.org/extend/themes/suffusion
 
 使用方法:
 1.安装好Debian5的VPS一个
-2.# wget --no-check-certificate https://github.com/TONYHEAD/lowendscript/raw/master/setup-debian.sh
-3.# bash setup-debian.sh onehit
-4.# bash setup-debian.sh wordpress blog.example.com
+2.# wget --no-check-certificate https://github.com/TONYHEAD/moneybox/raw/master/moneybox.sh
+3.# bash moneybox.sh onehit (配置环境,只需运行一次)
+4.# bash moneybox.sh wordpress blog.example.com (每次需要建立新站使用)
 5.访问blog.example.com进行设置
 6.完成

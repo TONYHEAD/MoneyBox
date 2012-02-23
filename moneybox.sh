@@ -374,7 +374,7 @@ function update_upgrade {
 }
 
 ########################################################################
-# START OF PROGRAM
+# START OF PROGRAM    onehit
 ########################################################################
 export PATH=/bin:/usr/bin:/sbin:/usr/sbin
 
