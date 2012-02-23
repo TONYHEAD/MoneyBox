@@ -1,0 +1,25 @@
+来自LowendBox的一键Nginx+php+MySQL+Wordpress脚本 (http://www.lowendbox.com/blog/wordpress-cheap-vps-lowendscript/)。
+
+改进
+1.增加了wordpress目录的nginx写权限，可以使用wordpress后台里自动升级和下载功能。
+2.自定义的wordpress包已经改好config文件以支持wp-super-cache插件提升性能
+
+自定义wordpress包包括:
+
+wordpress-3.3.1-zh_CN.zip       http://cn.wordpress.org/
+
+plugin:
+feedwordpress.2011.1019.zip     http://wordpress.org/extend/plugins/feedwordpress/
+nginx-compatibility.0.2.5.zip   http://wordpress.org/extend/plugins/nginx-compatibility/
+wp-super-cache.1.0.zip          http://wordpress.org/extend/plugins/wp-super-cache/
+
+theme:
+Suffusion Version: 3.9.6   http://wordpress.org/extend/themes/suffusion
+
+使用方法:
+1.安装好Debian5的VPS一个
+2.# wget --no-check-certificate https://github.com/TONYHEAD/lowendscript/raw/master/setup-debian.sh
+3.# bash setup-debian.sh onehit
+4.# bash setup-debian.sh wordpress blog.example.com
+5.访问blog.example.com进行设置
+6.完成
